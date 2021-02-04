@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6966F6E025CC7DA0003E3932 /* PlayThatBackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F6DF25CC7DA0003E3932 /* PlayThatBackApp.swift */; };
+		6966F6E225CC7DA0003E3932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F6E125CC7DA0003E3932 /* ContentView.swift */; };
+		6966F6E425CC7DA1003E3932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966F6E325CC7DA1003E3932 /* Assets.xcassets */; };
+		6966F6E725CC7DA1003E3932 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966F6E625CC7DA1003E3932 /* Preview Assets.xcassets */; };
+		6966F6F225CC7DA1003E3932 /* PlayThatBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F6F125CC7DA1003E3932 /* PlayThatBackTests.swift */; };
+		6966F6FD25CC7DA1003E3932 /* PlayThatBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966F6FC25CC7DA1003E3932 /* PlayThatBackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6966F6EE25CC7DA1003E3932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6966F6D425CC7DA0003E3932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6966F6DB25CC7DA0003E3932;
+			remoteInfo = PlayThatBack;
+		};
+		6966F6F925CC7DA1003E3932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6966F6D425CC7DA0003E3932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6966F6DB25CC7DA0003E3932;
+			remoteInfo = PlayThatBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6966F6DC25CC7DA0003E3932 /* PlayThatBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayThatBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6966F6DF25CC7DA0003E3932 /* PlayThatBackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayThatBackApp.swift; sourceTree = "<group>"; };
+		6966F6E125CC7DA0003E3932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6966F6E325CC7DA1003E3932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6966F6E625CC7DA1003E3932 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6966F6E825CC7DA1003E3932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6966F6ED25CC7DA1003E3932 /* PlayThatBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayThatBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6966F6F125CC7DA1003E3932 /* PlayThatBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayThatBackTests.swift; sourceTree = "<group>"; };
+		6966F6F325CC7DA1003E3932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6966F6F825CC7DA1003E3932 /* PlayThatBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayThatBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6966F6FC25CC7DA1003E3932 /* PlayThatBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayThatBackUITests.swift; sourceTree = "<group>"; };
+		6966F6FE25CC7DA1003E3932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6966F6D925CC7DA0003E3932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6EA25CC7DA1003E3932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6F525CC7DA1003E3932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6966F6D325CC7DA0003E3932 = {
+			isa = PBXGroup;
+			children = (
+				6966F6DE25CC7DA0003E3932 /* PlayThatBack */,
+				6966F6F025CC7DA1003E3932 /* PlayThatBackTests */,
+				6966F6FB25CC7DA1003E3932 /* PlayThatBackUITests */,
+				6966F6DD25CC7DA0003E3932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6966F6DD25CC7DA0003E3932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6966F6DC25CC7DA0003E3932 /* PlayThatBack.app */,
+				6966F6ED25CC7DA1003E3932 /* PlayThatBackTests.xctest */,
+				6966F6F825CC7DA1003E3932 /* PlayThatBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6966F6DE25CC7DA0003E3932 /* PlayThatBack */ = {
+			isa = PBXGroup;
+			children = (
+				6966F6DF25CC7DA0003E3932 /* PlayThatBackApp.swift */,
+				6966F6E125CC7DA0003E3932 /* ContentView.swift */,
+				6966F6E325CC7DA1003E3932 /* Assets.xcassets */,
+				6966F6E825CC7DA1003E3932 /* Info.plist */,
+				6966F6E525CC7DA1003E3932 /* Preview Content */,
+			);
+			path = PlayThatBack;
+			sourceTree = "<group>";
+		};
+		6966F6E525CC7DA1003E3932 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6966F6E625CC7DA1003E3932 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6966F6F025CC7DA1003E3932 /* PlayThatBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				6966F6F125CC7DA1003E3932 /* PlayThatBackTests.swift */,
+				6966F6F325CC7DA1003E3932 /* Info.plist */,
+			);
+			path = PlayThatBackTests;
+			sourceTree = "<group>";
+		};
+		6966F6FB25CC7DA1003E3932 /* PlayThatBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6966F6FC25CC7DA1003E3932 /* PlayThatBackUITests.swift */,
+				6966F6FE25CC7DA1003E3932 /* Info.plist */,
+			);
+			path = PlayThatBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6966F6DB25CC7DA0003E3932 /* PlayThatBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6966F70125CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBack" */;
+			buildPhases = (
+				6966F6D825CC7DA0003E3932 /* Sources */,
+				6966F6D925CC7DA0003E3932 /* Frameworks */,
+				6966F6DA25CC7DA0003E3932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayThatBack;
+			productName = PlayThatBack;
+			productReference = 6966F6DC25CC7DA0003E3932 /* PlayThatBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6966F6EC25CC7DA1003E3932 /* PlayThatBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6966F70425CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBackTests" */;
+			buildPhases = (
+				6966F6E925CC7DA1003E3932 /* Sources */,
+				6966F6EA25CC7DA1003E3932 /* Frameworks */,
+				6966F6EB25CC7DA1003E3932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6966F6EF25CC7DA1003E3932 /* PBXTargetDependency */,
+			);
+			name = PlayThatBackTests;
+			productName = PlayThatBackTests;
+			productReference = 6966F6ED25CC7DA1003E3932 /* PlayThatBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6966F6F725CC7DA1003E3932 /* PlayThatBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6966F70725CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBackUITests" */;
+			buildPhases = (
+				6966F6F425CC7DA1003E3932 /* Sources */,
+				6966F6F525CC7DA1003E3932 /* Frameworks */,
+				6966F6F625CC7DA1003E3932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6966F6FA25CC7DA1003E3932 /* PBXTargetDependency */,
+			);
+			name = PlayThatBackUITests;
+			productName = PlayThatBackUITests;
+			productReference = 6966F6F825CC7DA1003E3932 /* PlayThatBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6966F6D425CC7DA0003E3932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6966F6DB25CC7DA0003E3932 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6966F6EC25CC7DA1003E3932 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6966F6DB25CC7DA0003E3932;
+					};
+					6966F6F725CC7DA1003E3932 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6966F6DB25CC7DA0003E3932;
+					};
+				};
+			};
+			buildConfigurationList = 6966F6D725CC7DA0003E3932 /* Build configuration list for PBXProject "PlayThatBack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6966F6D325CC7DA0003E3932;
+			productRefGroup = 6966F6DD25CC7DA0003E3932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6966F6DB25CC7DA0003E3932 /* PlayThatBack */,
+				6966F6EC25CC7DA1003E3932 /* PlayThatBackTests */,
+				6966F6F725CC7DA1003E3932 /* PlayThatBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6966F6DA25CC7DA0003E3932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6966F6E725CC7DA1003E3932 /* Preview Assets.xcassets in Resources */,
+				6966F6E425CC7DA1003E3932 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6EB25CC7DA1003E3932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6F625CC7DA1003E3932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6966F6D825CC7DA0003E3932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6966F6E225CC7DA0003E3932 /* ContentView.swift in Sources */,
+				6966F6E025CC7DA0003E3932 /* PlayThatBackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6E925CC7DA1003E3932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6966F6F225CC7DA1003E3932 /* PlayThatBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966F6F425CC7DA1003E3932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6966F6FD25CC7DA1003E3932 /* PlayThatBackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6966F6EF25CC7DA1003E3932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6966F6DB25CC7DA0003E3932 /* PlayThatBack */;
+			targetProxy = 6966F6EE25CC7DA1003E3932 /* PBXContainerItemProxy */;
+		};
+		6966F6FA25CC7DA1003E3932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6966F6DB25CC7DA0003E3932 /* PlayThatBack */;
+			targetProxy = 6966F6F925CC7DA1003E3932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6966F6FF25CC7DA2003E3932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6966F70025CC7DA2003E3932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6966F70225CC7DA2003E3932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayThatBack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayThatBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6966F70325CC7DA2003E3932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayThatBack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayThatBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6966F70525CC7DA2003E3932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayThatBackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayThatBack.app/PlayThatBack";
+			};
+			name = Debug;
+		};
+		6966F70625CC7DA2003E3932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayThatBackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayThatBack.app/PlayThatBack";
+			};
+			name = Release;
+		};
+		6966F70825CC7DA2003E3932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayThatBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayThatBack;
+			};
+			name = Debug;
+		};
+		6966F70925CC7DA2003E3932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayThatBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TrevorPritchett.PlayThatBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayThatBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6966F6D725CC7DA0003E3932 /* Build configuration list for PBXProject "PlayThatBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6966F6FF25CC7DA2003E3932 /* Debug */,
+				6966F70025CC7DA2003E3932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6966F70125CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6966F70225CC7DA2003E3932 /* Debug */,
+				6966F70325CC7DA2003E3932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6966F70425CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6966F70525CC7DA2003E3932 /* Debug */,
+				6966F70625CC7DA2003E3932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6966F70725CC7DA2003E3932 /* Build configuration list for PBXNativeTarget "PlayThatBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6966F70825CC7DA2003E3932 /* Debug */,
+				6966F70925CC7DA2003E3932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6966F6D425CC7DA0003E3932 /* Project object */;
+}
