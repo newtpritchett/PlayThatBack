@@ -28,6 +28,8 @@ struct Home : View {
     @State var session : AVAudioSession!
     @State var recorder : AVAudioRecorder!
     @State var alert = false
+    //fetch Audios
+    @State var audios : [URL] = []
     
     var body: some View{
         
@@ -35,8 +37,53 @@ struct Home : View {
             
             VStack{
                 
+                List(self.audios,id: \.self){i in
+                    
+                    // printing only file name
+                    Text(i.relativeString)
+                }
+                
                 Button(action: {
-                    self.record.toggle()
+                    
+                    do {
+                        
+                        if self.record {
+                            
+                            //already Started Recording Means stoppping and saving
+                            self.recorder.stop()
+                            self.record.toggle()
+                            
+                            //updating data for every rcd
+                            self.getAudios()
+                            return
+                            
+                        }
+                        
+                        let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+                        
+                        //same file name
+                        //so we're updating based on audio count
+                        
+                        let filName = url.appendingPathComponent("myRcd\(self.audios.count + 1).m4a")
+                        
+                        let settings = [
+                            
+                            AVFormatIDKey : Int(kAudioFormatMPEG4AAC),
+                            AVSampleRateKey : 12000,
+                            AVNumberOfChannelsKey : 1,
+                            AVEncoderAudioQualityKey : AVAudioQuality.high.rawValue
+                            
+                        ]
+                        
+                        self.recorder = try AVAudioRecorder(url: filName, settings: settings)
+                        self.recorder.record()
+                        self.record.toggle()
+                        
+                    } catch {
+                        
+                        print(error.localizedDescription)
+                    }
+                    
                 }) {
                     
                     ZStack{
@@ -59,7 +106,7 @@ struct Home : View {
             .navigationBarTitle("Record Audio")
         }
         .alert(isPresented: self.$alert, content: {
-            Alert(title: Text("Error"), message: Text("Enable Access"), dismissButton: <#T##Alert.Button?#>)
+            Alert(title: Text("Error"), message: Text("Enable Access"))
         })
         .onAppear {
             do{
@@ -79,6 +126,10 @@ struct Home : View {
                         //error message
                         self.alert.toggle()
                     }
+                    else{
+                        //if permission granted means fetching all
+                        self.getAudios()
+                    }
                 }
             }catch {
                 
@@ -87,5 +138,28 @@ struct Home : View {
             }
         }
         
+    }
+    
+    func getAudios() {
+        
+        do{
+            
+            let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            
+            let result = try FileManager.default.contentsOfDirectory(at: url, includingPropertiesForKeys: nil, options: .producesRelativePathURLs)
+            
+            //updatng means remove all old data
+            
+            self.audios.removeAll()
+            
+            for i in result{
+                
+                self.audios.append(i)
+            }
+        }
+        catch{
+            
+            print(error.localizedDescription)
+        }
     }
 }
